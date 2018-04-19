@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    {include file="public/head" /}
+    {include file="public/css" /}
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>编辑分类
+                    </h5>
+                    <div class="ibox-tools">
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form id="insertCate" method="post" class="form-horizontal" action="{:url('menu_home/update_menu')}">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">顶级菜单：</label>
+                            <div class="col-sm-4">
+                                <select class="form-control m-b" name="p_id">
+                                    <option value="0">顶级菜单</option>
+                                    {foreach name="list" item="list"}
+                                    <option value="{$list['id']}" {if ($list['id'] == $Nav['p_id'])} selected="selected"{/if}>{$list['lefthtml']}{$list['name']}</option>
+                                    {/foreach}
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">菜单名称：</label>
+
+                            <div class="col-sm-4">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="输入分类名称" value="{$Nav['name']}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">菜单排序：</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="order" id="order" class="form-control" placeholder="输入1-100值" value="{$Nav['order']}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">SEO关键词：</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="keywords" id="keywords" class="form-control" placeholder="输入此栏目的关键词信息" value="{$Nav['keywords']}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">SEO描述：</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="description" id="description" class="form-control" placeholder="输入此栏目的描述信息" value="{$Nav['description']}">
+                            </div>
+                            <input type="hidden" name="id" value="{$Nav['id']}">
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">模板类型：</label>
+                            <div class="col-sm-4">
+                                <select class="form-control m-b" name="template_cate" id="checkTheSelect">
+                                    <option value="0">不改动，请勿选择</option>
+                                    {foreach name="listCate" item="listCate"}
+                                    <option value="{$listCate['id']}">{$listCate['name']}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">模板路径：</label>
+                            <div class="col-sm-4">
+
+                                <select class="form-control m-b" name="template_link" id="TemplateSelect">
+                                    <option value="0">不改动，请勿选择</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">菜单状态：</label>
+                            <div class="col-sm-4">
+                                <select class="form-control m-b" name="status">
+                                    {if condition="$Nav['status'] eq 1"}
+                                    <option value="1">是</option>
+                                    <option value="0">否</option>
+                                    {else /}
+                                    <option value="0">否</option>
+                                    <option value="1">是</option>
+                                    {/if}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">是否列表页：</label>
+                            <div class="col-sm-4">
+                                <select class="form-control m-b" name="is_list">
+                                    {if condition="$Nav['is_list'] eq 1"}
+                                    <option value="1">是</option>
+                                    <option value="0">否</option>
+                                    {else /}
+                                    <option value="0">否</option>
+                                    <option value="1">是</option>
+                                    {/if}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-6 col-sm-offset-2">
+                                <button class="btn btn-success"><i class="fa fa-save"></i> 保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a class="btn btn-danger" type="submit"><i class="fa fa-close"></i> 返回</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/js" /}
+<script>
+    $(function(){
+        //定义opt
+        var opt={
+            beforeSubmit: insertBefor,
+            success: insertOk,
+            dataType: 'json',
+            timeout: 5000
+        };
+        //ajax传输
+        $('#insertCate').ajaxForm(opt);
+
+        function insertBefor(){
+            var name =  $('#name').val();
+            if (name == ''){
+                layer.msg('分类名称不能为空',{icon:5});
+                return false;
+            }
+
+            var order =  $('#order').val();
+            if (order == ''){
+                layer.msg('分类排序不能为空',{icon:5});
+                return false;
+            }
+
+            var link =  $('#link').val();
+            if (link == ''){
+                layer.msg('分类排序不能为空',{icon:5});
+                return false;
+            }
+        }
+        function insertOk(data){
+            if (data.pass == 1){
+                layer.msg(data.msg, {icon: 6,time:1500,shade: 0.1}, function(index){
+                    window.location.href="{:url('menu_home/list_menu')}";
+                });
+            }else{
+                layer.msg(layer.msg,{icon:5});
+            }
+        }
+
+    });
+</script>
+<script>
+    $(function(){
+        $('#checkTheSelect').bind("change",function(){
+            var id = $('#checkTheSelect').val();;
+            //alert(id);
+            $.ajax({
+                url: "{:url('MenuHome/findTemplateLink')}",
+                type: 'post',
+                dataType: 'json',
+                data: {'id': id},
+                success:function (data){
+                    if(data['html'] == ''){
+                        $('#TemplateSelect').html(" <option>暂无</option>");
+                    }else{
+                        $('#TemplateSelect').html(data['html']);
+                    }
+
+
+                }
+            });
+        });
+    })
+</script>
+<script>
+    var ue = UE.getEditor('container');
+</script>
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+</script>
+
+</body>
+</html>

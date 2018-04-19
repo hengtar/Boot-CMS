@@ -1,0 +1,276 @@
+---------------------------------------------------------------
+[ 2018-04-13T14:16:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.boot-test.com/ [运行时间：0.741042s][吞吐率：1.35req/s] [内存消耗：2,874.38kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; monitor_count=40',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot-cms-test\public/../application/index\view\index\index.html [ array (
+  0 => 'Menu',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031002s ] mysql:dbname=boot-cms-test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`order`,`p_id`,`template_link`,`template_cate` FROM `boot_menu_home` WHERE  `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_config` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_config` [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-04-13T14:16:39+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.boot-test.com/captcha.html [运行时间：0.166010s][吞吐率：6.02req/s] [内存消耗：1,474.74kb] [文件加载：39]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.boot-test.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; monitor_count=41',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Users\Administrator\Desktop\Project\boot-cms-test\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-13T14:16:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.boot-test.com/favicon.ico [运行时间：0.341020s][吞吐率：2.93req/s] [内存消耗：1,448.37kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.boot-test.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; monitor_count=41; PHPSESSID=veg0132qtaglj0q0eug256qub0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-13T14:16:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/sms/sendsms
+[ info ] www.boot-test.com/index/sms/sendsms [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,843.62kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sms',
+    2 => 'sendsms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; monitor_count=41; PHPSESSID=veg0132qtaglj0q0eug256qub0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Sms->sendSms[ C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms-test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`order`,`p_id`,`template_link`,`template_cate` FROM `boot_menu_home` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_config` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_config` [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: captcha[C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php:14]
+---------------------------------------------------------------
+[ 2018-04-13T14:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/sms/sendsms/captcha
+[ info ] www.boot-test.com/index/sms/sendsms/captcha [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：2,843.65kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sms',
+    2 => 'sendsms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; PHPSESSID=veg0132qtaglj0q0eug256qub0; monitor_count=42',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Sms->sendSms[ C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=boot-cms-test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`order`,`p_id`,`template_link`,`template_cate` FROM `boot_menu_home` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_config` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_config` [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: captcha[C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php:14]
+---------------------------------------------------------------
+[ 2018-04-13T14:17:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/sms/sendsms/captcha/aaa
+[ info ] www.boot-test.com/index/sms/sendsms/captcha/aaa [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,901.97kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sms',
+    2 => 'sendsms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; PHPSESSID=veg0132qtaglj0q0eug256qub0; monitor_count=43',
+)
+[ info ] [ PARAM ] array (
+  'captcha' => 'aaa',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Sms->sendSms[ C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms-test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`order`,`p_id`,`template_link`,`template_cate` FROM `boot_menu_home` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_config` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_config` [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: phone[C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php:15]
+---------------------------------------------------------------
+[ 2018-04-13T14:18:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/sms/sendsms/captcha/aaa/phone/123
+[ info ] www.boot-test.com/index/sms/sendsms/captcha/aaa/phone/123 [运行时间：0.285017s][吞吐率：3.51req/s] [内存消耗：2,915.39kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sms',
+    2 => 'sendsms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; PHPSESSID=veg0132qtaglj0q0eug256qub0; monitor_count=44',
+)
+[ info ] [ PARAM ] array (
+  'captcha' => 'aaa',
+  'phone' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Sms->sendSms[ C:\Users\Administrator\Desktop\Project\boot-cms-test\application\index\controller\Sms.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms-test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`order`,`p_id`,`template_link`,`template_cate` FROM `boot_menu_home` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_config` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_config` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-13T18:35:04+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.boot-test.com/favicon.ico [运行时间：0.208012s][吞吐率：4.81req/s] [内存消耗：1,447.76kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot-cms-test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot-test.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=199459240.135520185359340100.1523362815487.777; PHPSESSID=veg0132qtaglj0q0eug256qub0; code=648166; monitor_count=45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

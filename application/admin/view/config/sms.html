@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    {include file="public/head" /}
+    {include file="public/css" /}
+    <link rel="stylesheet" type="text/css" href="/static/webupload/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/static/webupload/style.css">
+    <link href="/static/admin/css/plugins/switchery/switchery.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>短信配置
+                    </h5>
+                    <div class="ibox-tools">
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form method="post" class="form-horizontal" id="updateConfig" action="{:url('Config/sms')}" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">阿里大鱼AppKey：</label>
+
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="输入阿里大鱼AppKey" name="config[web_aliappkey]" id="web_aliappkey" value="{$config['web_aliappkey']}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">阿里大鱼SecretKey ：</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="输入阿里大鱼SecretKey" name="config[web_alisecretkey]" id="web_alisecretkey" value="{$config['web_alisecretkey']}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <button class="btn btn-success" type="submit"><i class="fa fa-save"></i> 保 存</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/js" /}
+<script>
+    $(function () {
+        var opt={
+            beforeSubmit: insertBefor,
+            success: insertOk,
+            dataType: 'json',
+            timeout: 5000
+        };
+        $('#updateConfig').ajaxForm(opt);
+
+        function insertBefor(){
+            if ($('#web_aliappkey').val() == ''){
+                layer.msg('阿里大鱼AppKey不能为空',{icon:5});
+                return false;
+            }
+
+            if ($('#web_alisecretkey').val() == ''){
+                layer.msg('输入阿里大鱼SecretKey不能为空',{icon:5});
+                return false;
+            }
+
+        }
+        function insertOk(data){
+            if (data.pass == 1){
+                layer.msg(data.msg, {icon: 6,time:1500,shade: 0.1}, function(index){
+                    window.location.href="{:url('Config/sms')}";
+                });
+            }else{
+                layer.msg(layer.msg,{icon:5});
+            }
+        }
+    });
+</script>
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+</script>
+</body>
+</html>

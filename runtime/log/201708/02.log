@@ -1,0 +1,281 @@
+---------------------------------------------------------------
+[ 2017-08-02T15:44:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.com/ [运行时间：0.602034s][吞吐率：1.66req/s] [内存消耗：3,028.28kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\Project\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'page',
+  3 => 'list',
+  4 => 'TuiList',
+  5 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-02T15:44:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/magnific-popup.css
+[ info ] www.blog.com/static/index/css/magnific-popup.css [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,435.20kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.blog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-02T15:45:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.com/ [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：3,028.33kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\Project\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'page',
+  3 => 'list',
+  4 => 'TuiList',
+  5 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-02T15:45:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/magnific-popup.css
+[ info ] www.blog.com/static/index/css/magnific-popup.css [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,435.20kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.blog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-02T15:45:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/cate/id/5
+[ info ] www.blog.com/index/index/cate/id/5 [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,977.73kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->cate[ C:\Users\Administrator\Desktop\Project\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'page',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `cate_id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `cate_id` = 5 LIMIT 0,9 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-02T15:45:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/magnific-popup.css
+[ info ] www.blog.com/static/index/css/magnific-popup.css [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,435.28kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.blog.com/index/index/cate/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-02T15:45:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Index/cate/id/4
+[ info ] www.blog.com/index/Index/cate/id/4 [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,977.71kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index/index/cate/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->cate[ C:\Users\Administrator\Desktop\Project\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'page',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `cate_id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `cate_id` = 4 LIMIT 0,9 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-02T15:45:23+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/magnific-popup.css
+[ info ] www.blog.com/static/index/css/magnific-popup.css [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,435.28kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.blog.com/index/Index/cate/id/4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15d34f01ebaac3-00b29af3b10d8b-323f5c0f-1fa400-15d34f01ebb5ea; CNZZDATA1262804087=1806254490-1499831133-%7C1499831133',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

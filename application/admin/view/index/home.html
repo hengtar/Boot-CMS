@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+{include file="public/introduce" /}
+<head>
+    {include file="public/head" /}
+    {include file="public/css" /}
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-success pull-right">总</span>
+                    <h5>文章数</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">0</h1>
+                    <div class="stat-percent font-bold text-success">0% <i class="fa fa-bolt"></i>
+                    </div>
+                    <small>总收入</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-info pull-right">日</span>
+                    <h5>今日发布</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">0</h1>
+                    <div class="stat-percent font-bold text-info">0% <i class="fa fa-level-up"></i>
+                    </div>
+                    <small>新订单</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-primary pull-right">总</span>
+                    <h5>留言数</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">0</h1>
+                    <div class="stat-percent font-bold text-navy">0% <i class="fa fa-level-up"></i>
+                    </div>
+                    <small>新访客</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-danger pull-right">日</span>
+                    <h5>今日留言</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">0</h1>
+                    <div class="stat-percent font-bold text-danger">0% <i class="fa fa-level-down"></i>
+                    </div>
+                    <small>12月</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>最新留言</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="feed-activity-list">
+                        {foreach name="NewMessage" item="NewMessage"}
+                        <div class="feed-element">
+                            <div>
+                                <small class="pull-right">{$NewMessage['address']}</small>
+                                <strong>{$NewMessage['nick_name']}</strong>
+                                <div>{$NewMessage['content']}</div>
+                                <small class="text-muted">{$NewMessage['update_time']}</small>
+                            </div>
+                        </div>
+                        {/foreach}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>功能清单</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <table class="table table-hover no-margins">
+                                <thead>
+                                <tr>
+                                    <th>功能</th>
+                                    <th>更新日期</th>
+                                    <th>作者</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><small>系统管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr>
+                                <tr>
+                                    <td><small>权限管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr>
+                                <tr>
+                                    <td><small>会员管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr>
+                                <tr>
+                                    <td><small>文章管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr><tr>
+                                    <td><small>广告管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr><tr>
+                                    <td><small>菜单管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr><tr>
+                                    <td><small>留言管理</small>
+                                    </td>
+                                    <td><i class="fa fa-clock-o"></i> 暂无</td>
+                                    <td>老张-Boot.Z</td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>技术支持</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <table class="table table-hover no-margins">
+                                <thead>
+                                <tr>
+                                    <th>作者</th>
+                                    <th>邮箱</th>
+                                    <!--<th>支付宝</th>-->
+                                    <th>微信</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><small>老张-Boot.Z</small>
+                                    </td>
+                                    <td>852952656@qq.com</td>
+                                    <!--<td>暂无</td>-->
+                                    <td>852952656</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{include file="public/js" /}
+</body>
+
+</html>

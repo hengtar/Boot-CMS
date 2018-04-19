@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {include file="public/head" /}
+    {include file="public/css" /}
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>会员类型</h5>
+        </div>
+        <div class="ibox-content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div  class="col-sm-2" style="width: 100px">
+                        <div class="input-group" >
+                            <a href="{:url('Member/insert_cate')}"><button class="btn btn-outline btn-success" type="button">添加类型</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-line-dashed"></div>
+            <div class="example-wrap">
+                <div class="example">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                        <tr class="lzCenter-th">
+                            <th>ID</th>
+                            <th>类型</th>
+                            <th>排序</th>
+                            <th width="15%">添加时间</th>
+                            <th width="15%">更新时间</th>
+                            <th>显示</th>
+                            <th width="20%">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody id="Member_list">
+                        {foreach name="list" item="list"}
+                        <tr class="lzCenter-td">
+                            <td>{$list['id']}</td>
+                            <td>{$list['name']}</td>
+                            <td>{$list['order']}</td>
+                            <td>{$list['create_time']}</td>
+                            <td>{$list['update_time']}</td>
+                            <td>
+                                <a>
+                                    {if($list['status'] == 1)}
+                                    <button class="btn btn-success status btn-outline btn-xs" id="status-{$list['id']}"><i class="fa fa-hand-o-up"></i> 是</button>
+                                    {else /}
+                                    <button class=" btn btn-danger status btn-outline btn-xs" id="status-{$list['id']}"><i class="fa fa-hand-o-down"></i> 否</button>
+                                    {/if}
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{:url('Member/update_cate',array('id' => $list['id']))}" class="btn btn-success btn-outline btn-xs">
+                                    <i class="fa fa-paste"></i> 编辑</a>&nbsp;&nbsp;
+                                <button  class="btn btn-danger btn-outline btn-xs  laozhang"  id="del-{$list['id']}">
+                                    <i class="fa fa-trash-o"></i> 删除</button>
+                            </td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div style="text-align: right">
+                {$page}
+            </div>
+        </div>
+    </div>
+</div>
+
+{include  file="public/js" /}
+
+<!--<div class="ibox-content">-->
+    <!--<div class="spiner-example">-->
+        <!--<div class="sk-spinner sk-spinner-rotating-plane"></div>-->
+    <!--</div>-->
+<!--</div>-->
+<script type="text/javascript">
+   $(function(){
+
+       //删除js
+       $('.laozhang').click(function(){
+           var $p = $(this).parent().parent();
+           var $this = $(this);
+           layer.confirm('确认删除此分类?',
+               {icon: 3, title:'提示'},
+               function(index){$.getJSON("{:url('Member/delete_cate')}",
+                   {'id' : $this.attr("id").replace('del-', '')},
+                   function(data){
+                   if(data.pass == 1)
+                   {
+                       layer.msg(data.msg,{icon:1,time:1500,shade: 0.1},function                    (index){
+                           layer.close(index);
+                           history.go(0);
+                       }
+                       );
+                   }else{
+                       layer.msg(res.msg,{icon:0,time:1500,shade: 0.1});
+                   }
+               });
+               layer.close(index);
+           });
+           //阻止浏览器默认事件
+       });
+
+       //修改状态js
+       $('.status').click(function(){
+           var $p = $(this).parent().parent();
+           var $this = $(this);
+           layer.confirm('确认更改此分类?',
+               {icon: 3, title:'提示'},
+               function(index){$.getJSON("{:url('Member/status_cate')}",
+                   {'id' : $this.attr("id").replace('status-', '')},
+                   function(data){
+                       if(data.pass == 1)
+                       {
+                           layer.msg(data.msg,{icon:1,time:1000,shade: 0.1},function                    (index){
+                                   layer.close(index);
+                                   history.go(0);
+                               }
+                           );
+                       }else{
+                           layer.msg(res.msg,{icon:0,time:1500,shade: 0.1});
+                       }
+                   });
+                   layer.close(index);
+               });
+           //阻止浏览器默认事件
+       });
+   });
+</script>
+
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="nav-close"><i class="fa fa-times-circle"></i>
+    </div>
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span><img alt="image" style="width: 150px; height: 60px;" src="/static/admin/img/logo.png"/></span>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <br>
+                                <span class="text-muted text-xs block">欢迎管理员：{$Think.session.admin_nickname}<b
+                                        class="caret"></b></span>
+                                </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        </li>
+                        <li><a target="_blank" href="http://wpa.qq.com/msgrd?V=1&Uin=852952656&Menu=yes">联系我们</a>
+                        </li>
+                        <li><a target="_blank"
+                               href="//shang.qq.com/wpa/qunwpa?idkey=093d1ada76c494c65607722f973524f5877c175d78796993548cf053429874ed">加入交流群</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="{:url('Login/loginOut')}">安全退出</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-element">Boot.Z</div>
+            </li>
+
+            {if !empty($menu)}
+            {foreach name="menu" item="menu"}
+            <li class="menu">
+                <a href="{$menu.url}">
+                    <i class="{$menu.ico}"></i>
+                    <span class="nav-label">{$menu.name} </span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level">
+                    {if !empty($menu['_child'])}
+                    {foreach name="$menu['_child']" item="child"}
+                    <li>
+                        <a class="J_menuItem" href="/{$child.url}">{$child.name}</a>
+                    </li>
+                    {/foreach}
+                    {/if}
+                </ul>
+            </li>
+            {/foreach}
+            {/if}
+
+
+        </ul>
+    </div>
+</nav>

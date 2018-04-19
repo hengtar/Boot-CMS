@@ -1,0 +1,3174 @@
+---------------------------------------------------------------
+[ 2017-11-06T17:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.boot.com/favicon.ico [运行时间：3.474199s][吞吐率：0.29req/s] [内存消耗：1,434.77kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-06T17:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.boot.com/ [运行时间：3.984228s][吞吐率：0.25req/s] [内存消耗：2,774.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025002s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boot-cms.boot_nav_cate' doesn't exist[C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-06T17:31:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.boot.com/favicon.ico [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,435.66kb] [文件加载：40]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-06T17:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.boot.com/admin [运行时间：0.257015s][吞吐率：3.89req/s] [内存消耗：1,774.55kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-06T17:31:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ info ] www.boot.com/admin/login/login.html [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：1,749.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; monitor_count=1; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-06T17:31:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ info ] www.boot.com/admin/login/login.html [运行时间：0.451026s][吞吐率：2.22req/s] [内存消耗：2,495.94kb] [文件加载：53]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'content-length' => '21',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.boot.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'admin',
+  'pass' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_admin` [ RunTime:0.238013s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_admin` WHERE  `user` = 'admin'  AND `pass` = '59b1a6e5c491fac9e6bbe9ee127cf64088728601' LIMIT 1 [ RunTime:0.112007s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:31:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.330019s][吞吐率：3.03req/s] [内存消耗：2,888.88kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.090006s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.408023s][吞吐率：2.45req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:31:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:31:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/list_message?v=4.0
+[ info ] www.boot.com/admin/message/list_message?v=4.0 [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：3,050.84kb] [文件加载：62]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'list_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->list_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\message\list_message.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_message` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT *,`id` FROM `boot_message` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_template?v=4.0
+[ info ] www.boot.com/admin/template/list_template?v=4.0 [运行时间：0.192011s][吞吐率：5.21req/s] [内存消耗：3,064.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_template',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_template[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_template.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:33:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,889.03kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_template?v=4.0
+[ info ] www.boot.com/admin/template/list_template?v=4.0 [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：3,064.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_template',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_template[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_template.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_cate?v=4.0
+[ info ] www.boot.com/admin/template/list_cate?v=4.0 [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：3,054.20kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_template_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_article?v=4.0
+[ info ] www.boot.com/admin/article/list_article?v=4.0 [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：3,053.53kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_article[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_article.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:34:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_cate?v=4.0
+[ info ] www.boot.com/admin/article/list_cate?v=4.0 [运行时间：0.107007s][吞吐率：9.35req/s] [内存消耗：3,049.32kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_article_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:35:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/delete_cate.html?id=50
+[ info ] www.boot.com/admin/article/delete_cate.html?id=50 [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,955.33kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'delete_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/article/list_cate?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '50',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->delete_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_article_cate`    WHERE  `id` = 50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_cate?v=4.0
+[ info ] www.boot.com/admin/article/list_cate?v=4.0 [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：3,046.89kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/article/list_cate?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_article_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/delete_cate.html?id=2
+[ info ] www.boot.com/admin/article/delete_cate.html?id=2 [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,955.32kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'delete_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/article/list_cate?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->delete_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_article_cate`    WHERE  `id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_cate?v=4.0
+[ info ] www.boot.com/admin/article/list_cate?v=4.0 [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：3,044.26kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/article/list_cate?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_article_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,889.03kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/list_message?v=4.0
+[ info ] www.boot.com/admin/message/list_message?v=4.0 [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：3,050.84kb] [文件加载：62]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'list_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->list_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\message\list_message.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_message` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT *,`id` FROM `boot_message` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_template?v=4.0
+[ info ] www.boot.com/admin/template/list_template?v=4.0 [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：3,064.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_template',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_template[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_template.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_cate?v=4.0
+[ info ] www.boot.com/admin/template/list_cate?v=4.0 [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：3,054.20kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_template_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_article?v=4.0
+[ info ] www.boot.com/admin/article/list_article?v=4.0 [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：3,053.53kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_article[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_article.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_cate?v=4.0
+[ info ] www.boot.com/admin/article/list_cate?v=4.0 [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：3,044.05kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_article_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_admin/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_admin/list_menu?v=4.0 [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：3,004.27kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_admin',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MenuAdmin->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuAdmin.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_admin\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'listRule',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.182011s][吞吐率：5.49req/s] [内存消耗：2,958.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/delete_menu.html?id=48
+[ info ] www.boot.com/admin/menu_home/delete_menu.html?id=48 [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,958.72kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'delete_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->delete_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_menu_home`    WHERE  `id` = 48 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,954.95kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/delete_menu.html?id=49
+[ info ] www.boot.com/admin/menu_home/delete_menu.html?id=49 [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,958.72kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'delete_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '49',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->delete_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_menu_home`    WHERE  `id` = 49 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,950.77kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/delete_menu.html?id=46
+[ info ] www.boot.com/admin/menu_home/delete_menu.html?id=46 [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,958.72kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'delete_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '46',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->delete_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_menu_home`    WHERE  `id` = 46 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,946.49kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/delete_menu.html?id=47
+[ info ] www.boot.com/admin/menu_home/delete_menu.html?id=47 [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,958.72kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'delete_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->delete_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_menu_home`    WHERE  `id` = 47 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,942.30kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/delete_menu.html?id=50
+[ info ] www.boot.com/admin/menu_home/delete_menu.html?id=50 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,958.72kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'delete_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '50',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->delete_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_menu_home`    WHERE  `id` = 50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,937.51kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/menu_home/list_menu?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,874.88kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/list_message?v=4.0
+[ info ] www.boot.com/admin/message/list_message?v=4.0 [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：3,050.84kb] [文件加载：62]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'list_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->list_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\message\list_message.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_message` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT *,`id` FROM `boot_message` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/delete_message.html?id=12
+[ info ] www.boot.com/admin/message/delete_message.html?id=12 [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,931.44kb] [文件加载：60]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'delete_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.boot.com/admin/message/list_message?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->delete_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] DELETE FROM `boot_message`    WHERE  `id` = 12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/list_message?v=4.0
+[ info ] www.boot.com/admin/message/list_message?v=4.0 [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：3,046.30kb] [文件加载：62]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'list_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/message/list_message?v=4.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->list_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\message\list_message.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_message` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT *,`id` FROM `boot_message` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,870.79kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_template?v=4.0
+[ info ] www.boot.com/admin/template/list_template?v=4.0 [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：3,064.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_template',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_template[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_template.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:37:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_cate?v=4.0
+[ info ] www.boot.com/admin/template/list_cate?v=4.0 [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：3,054.20kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template_cate` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_template_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_article?v=4.0
+[ info ] www.boot.com/admin/article/list_article?v=4.0 [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：3,053.53kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_article[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_article.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_article` `a` INNER JOIN `boot_article_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/list_cate?v=4.0
+[ info ] www.boot.com/admin/article/list_cate?v=4.0 [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：3,044.05kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\article\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_article_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_article_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_article_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_admin/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_admin/list_menu?v=4.0 [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：3,004.27kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_admin',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MenuAdmin->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuAdmin.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_admin\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'listRule',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu_home/list_menu?v=4.0
+[ info ] www.boot.com/admin/menu_home/list_menu?v=4.0 [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,937.23kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu_home',
+    2 => 'list_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menuhome->list_menu[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\MenuHome.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\menu_home\list_menu.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_home` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.name as cate_name FROM `boot_menu_home` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`template_cate`=`b`.`id` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/advert/list_advert?v=4.0
+[ info ] www.boot.com/admin/advert/list_advert?v=4.0 [运行时间：0.163010s][吞吐率：6.13req/s] [内存消耗：3,047.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'advert',
+    2 => 'list_advert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Advert->list_advert[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Advert.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\advert\list_advert.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_advert` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_advert` `a` INNER JOIN `boot_advert_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_advert` `a` INNER JOIN `boot_advert_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/advert/list_cate?v=4.0
+[ info ] www.boot.com/admin/advert/list_cate?v=4.0 [运行时间：0.102005s][吞吐率：9.80req/s] [内存消耗：3,040.82kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'advert',
+    2 => 'list_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Advert->list_cate[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Advert.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\advert\list_cate.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_advert_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_advert_cate` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`create_time`,`update_time`,`status`,`order` FROM `boot_advert_cate` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T17:38:28+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.boot.com/ [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,775.03kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boot-cms.boot_nav_cate' doesn't exist[C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,870.63kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:08+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.boot.com/ [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,773.23kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boot-cms.boot_nav_cate' doesn't exist[C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.boot.com/admin/index/index.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：2,889.11kb] [文件加载：57]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ info ] www.boot.com/admin/index/home.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,870.79kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->home[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\index\home.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'NewMessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `content`,`ip`,`update_time`,`id`,`nick_name` FROM `boot_message` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:11+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://www.boot.com/
+[ info ] www.boot.comHTTP://www.boot.com/ [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,773.37kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boot-cms.boot_nav_cate' doesn't exist[C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] www.boot.com/index.php [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,773.55kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boot-cms.boot_nav_cate' doesn't exist[C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/list_message?v=4.0
+[ info ] www.boot.com/admin/message/list_message?v=4.0 [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：3,046.05kb] [文件加载：62]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'list_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Message->list_message[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\message\list_message.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_message` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_message` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT *,`id` FROM `boot_message` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-06T18:12:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/template/list_template?v=4.0
+[ info ] www.boot.com/admin/template/list_template?v=4.0 [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,064.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\Project\boot_cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'template',
+    2 => 'list_template',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.boot.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.boot.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=173887013.3943695239864802300.1509960699407.4612; PHPSESSID=9b9vg1hklf5ns58ohnoc5i3097; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Template->list_template[ C:\Users\Administrator\Desktop\Project\boot_cms\application\admin\controller\Template.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\Project\boot_cms\public/../application/admin\view\template\list_template.html [ array (
+  0 => 'admin_nickname',
+  1 => 'menu',
+  2 => 'list',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=boot-cms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_menu_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `boot_menu_admin` ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `boot_template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `boot_template` `a` INNER JOIN `boot_template_cate` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY a.id desc LIMIT 0,10 [ RunTime:0.000000s ]

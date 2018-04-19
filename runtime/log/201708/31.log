@@ -1,0 +1,930 @@
+---------------------------------------------------------------
+[ 2017-08-31T00:47:13+08:00 ] 172.17.113.113 123.125.71.49 GET /
+[ info ] www.jh12.cn/ [运行时间：0.010539s][吞吐率：94.89req/s] [内存消耗：902.48kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-language' => 'zh-cn,zh-tw',
+  'if-none-match' => '"@NULL@"',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2017-08-31T00:47:30+08:00 ] 172.17.113.113 111.206.221.81 GET /static/index/css/magnific-popup.css
+[ info ] www.jh12.cn/static/index/css/magnific-popup.css [运行时间：0.003002s][吞吐率：333.12req/s] [内存消耗：389.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'proxy-connection' => 'keep-alive',
+  'x-devtools-emulate-network-conditions-client-id' => '9c73eb3a-0dcf-4252-b973-e59f20f10335',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'resource-type' => '2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.jh12.cn/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T01:04:04+08:00 ] 172.17.113.113 66.249.71.10 GET /robots.txt
+[ info ] jh12.cn/robots.txt [运行时间：0.003624s][吞吐率：275.94req/s] [内存消耗：387.69kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'robots.txt',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'Keep-alive',
+  'accept' => 'text/plain,text/html,*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T01:04:05+08:00 ] 172.17.113.113 66.249.79.66 GET /?page=2
+[ info ] jh12.cn/?page=2 [运行时间：0.009308s][吞吐率：107.44req/s] [内存消耗：875.82kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'Keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+  'if-modified-since' => 'Mon, 24 Jul 2017 09:49:19 GMT',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 9,9 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2017-08-31T01:04:08+08:00 ] 172.17.113.113 66.249.79.94 GET /static/index/css/magnific-popup.css
+[ info ] jh12.cn/static/index/css/magnific-popup.css [运行时间：0.003456s][吞吐率：289.36req/s] [内存消耗：388.70kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'referer' => 'http://jh12.cn/?page=2',
+  'accept-language' => 'en-US',
+  'connection' => 'Keep-alive',
+  'accept' => '*/*,text/css,*/*;q=0.1',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T01:08:00+08:00 ] 172.17.113.113 58.217.192.54 HEAD /
+[ info ] jh12.cn/ [运行时间：0.009706s][吞吐率：103.03req/s] [内存消耗：900.87kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'accept' => '*/*',
+  'host' => 'jh12.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2017-08-31T03:30:24+08:00 ] 172.17.113.113 106.11.226.76 GET /
+[ info ] www.jh12.cn/ [运行时间：0.010357s][吞吐率：96.55req/s] [内存消耗：902.71kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'www.jh12.cn',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000199s ]
+---------------------------------------------------------------
+[ 2017-08-31T04:08:56+08:00 ] 172.17.113.113 106.11.225.44 GET /
+[ info ] jh12.cn/ [运行时间：0.057113s][吞吐率：17.51req/s] [内存消耗：928.70kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'jh12.cn',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2017-08-31T05:11:26+08:00 ] 172.17.113.113 58.217.192.54 HEAD /
+[ info ] jh12.cn/ [运行时间：0.010431s][吞吐率：95.87req/s] [内存消耗：900.87kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'accept' => '*/*',
+  'host' => 'jh12.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2017-08-31T05:40:36+08:00 ] 172.17.113.113 42.156.251.194 GET /
+[ info ] jh12.cn/ [运行时间：0.010843s][吞吐率：92.23req/s] [内存消耗：903.52kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; GN3001 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/1.0.0.100 U3/0.8.0 Mobile Safari/534.30 AliApp(TB/6.7.0) WindVane/8.0.0 720X1280 GCanvas/1.4.2.21',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ASPSESSIONIDAABDQSDQ=NBECHDHDNIOLKMBFEKGEPIMB; path=/',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'host' => 'jh12.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000187s ]
+---------------------------------------------------------------
+[ 2017-08-31T05:40:40+08:00 ] 172.17.113.113 42.156.251.194 GET /
+[ info ] jh12.cn/ [运行时间：0.010136s][吞吐率：98.66req/s] [内存消耗：902.84kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; GN3001 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/1.0.0.100 U3/0.8.0 Mobile Safari/534.30 AliApp(TB/6.7.0) WindVane/8.0.0 720X1280 GCanvas/1.4.2.21',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en,*',
+  'host' => 'jh12.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2017-08-31T05:40:40+08:00 ] 172.17.113.113 42.156.251.194 GET /static/index/css/magnific-popup.css
+[ info ] jh12.cn/static/index/css/magnific-popup.css [运行时间：0.005376s][吞吐率：186.01req/s] [内存消耗：392.98kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://jh12.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; GN3001 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/1.0.0.100 U3/0.8.0 Mobile Safari/534.30 AliApp(TB/6.7.0) WindVane/8.0.0 720X1280 GCanvas/1.4.2.21',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en,*',
+  'host' => 'jh12.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T05:43:23+08:00 ] 172.17.113.113 220.181.108.96 GET /index/Page/index/id/28
+[ info ] jh12.cn/index/Page/index/id/28 [运行时间：0.009554s][吞吐率：104.67req/s] [内存消耗：865.23kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Page',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-cn,zh-tw',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'id' => '28',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Page->index[ /data/wwwroot/default/thinkphp/application/index/controller/Page.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/page/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `id`,`content`,`cate_name` FROM `laozhang_nav_cate` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2017-08-31T05:43:31+08:00 ] 172.17.113.113 111.206.221.92 GET /static/index/css/magnific-popup.css
+[ info ] jh12.cn/static/index/css/magnific-popup.css [运行时间：0.002997s][吞吐率：333.68req/s] [内存消耗：389.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'proxy-connection' => 'keep-alive',
+  'x-devtools-emulate-network-conditions-client-id' => 'f4af9757-3ae4-43a8-88c3-50745f28ca7a',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'resource-type' => '2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://jh12.cn/index/Page/index/id/28',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T05:59:39+08:00 ] 172.17.113.113 66.249.79.94 GET /forum.php?mod=viewthread&tid=344
+[ info ] jh12.cn/forum.php?mod=viewthread&tid=344 [运行时间：0.003606s][吞吐率：277.31req/s] [内存消耗：388.94kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'forum.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'Keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+  'mod' => 'viewthread',
+  'tid' => '344',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T06:50:03+08:00 ] 172.17.113.113 220.181.108.101 GET /index.php/Home/One/index/id/1
+[ info ] jh12.cn/index.php/Home/One/index/id/1 [运行时间：0.003544s][吞吐率：282.16req/s] [内存消耗：388.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Home',
+    1 => 'One',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-language' => 'zh-cn,zh-tw',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T08:25:14+08:00 ] 172.17.113.113 120.92.32.247 GET /
+[ info ] jh12.cn/ [运行时间：0.010052s][吞吐率：99.48req/s] [内存消耗：903.41kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'accept-language' => 'zh,zh-CN;q=0.8,zh-TW;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95  Safari/537.36',
+  'accept-charset' => 'UTF-8,*;q=0.5',
+  'cookie' => 'ASPSESSIONIDQASBQDRC=HJNCEIDDOOKIJECJODIJEKMD;ASPSESSIONIDQSCCTADB=ACDBJAOCGNMMIABENILOEENF;',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2017-08-31T08:43:59+08:00 ] 172.17.113.113 123.125.71.79 GET /
+[ info ] www.jh12.cn/ [运行时间：0.009025s][吞吐率：110.81req/s] [内存消耗：902.49kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-language' => 'zh-cn,zh-tw',
+  'if-none-match' => '"@NULL@"',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000326s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000159s ]
+---------------------------------------------------------------
+[ 2017-08-31T08:44:05+08:00 ] 172.17.113.113 111.206.221.69 GET /static/index/css/magnific-popup.css
+[ info ] www.jh12.cn/static/index/css/magnific-popup.css [运行时间：0.002617s][吞吐率：382.13req/s] [内存消耗：389.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'proxy-connection' => 'keep-alive',
+  'x-devtools-emulate-network-conditions-client-id' => 'cef7eaca-93db-4e01-94bf-e5d497fa420f',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'resource-type' => '2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.jh12.cn/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T15:13:18+08:00 ] 172.17.113.113 101.200.177.84 GET /
+[ info ] www.jh12.cn/ [运行时间：0.010765s][吞吐率：92.90req/s] [内存消耗：901.08kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2017-08-31T15:32:27+08:00 ] 172.17.113.113 123.125.71.110 GET /forum.php?mod=viewthread&tid=115&extra=page%3D1
+[ info ] jh12.cn/forum.php?mod=viewthread&tid=115&extra=page%3D1 [运行时间：0.003661s][吞吐率：273.16req/s] [内存消耗：388.95kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'forum.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-language' => 'zh-cn,zh-tw',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'mod' => 'viewthread',
+  'tid' => '115',
+  'extra' => 'page=1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T16:41:54+08:00 ] 172.17.113.113 220.181.108.150 GET /
+[ info ] www.jh12.cn/ [运行时间：0.010492s][吞吐率：95.31req/s] [内存消耗：902.49kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-language' => 'zh-cn,zh-tw',
+  'if-none-match' => '"@NULL@"',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[ 2017-08-31T16:42:12+08:00 ] 172.17.113.113 111.206.221.28 GET /static/index/css/magnific-popup.css
+[ info ] www.jh12.cn/static/index/css/magnific-popup.css [运行时间：0.003240s][吞吐率：308.65req/s] [内存消耗：389.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'proxy-connection' => 'keep-alive',
+  'x-devtools-emulate-network-conditions-client-id' => 'b76dcfb8-b289-4907-9c09-2f454841a902',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'resource-type' => '2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.jh12.cn/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T17:57:33+08:00 ] 172.17.113.113 120.92.32.139 GET /
+[ info ] www.jh12.cn/ [运行时间：0.010910s][吞吐率：91.66req/s] [内存消耗：903.41kb] [文件加载：60]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jh12.cn',
+  'accept-language' => 'zh,zh-CN;q=0.8,zh-TW;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95  Safari/537.36',
+  'accept-charset' => 'UTF-8,*;q=0.5',
+  'cookie' => 'ASPSESSIONIDQASBQDRC=HJNCEIDDOOKIJECJODIJEKMD;ASPSESSIONIDQSCCTADB=ACDBJAOCGNMMIABENILOEENF;',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/thinkphp/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/wwwroot/default/thinkphp/public/../application/index/view/index/index.html [ array (
+  0 => 'nav',
+  1 => 'HowArticle',
+  2 => 'config',
+  3 => 'page',
+  4 => 'list',
+  5 => 'TuiList',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:dbname=daguanwanggg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_nav_cate` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`status`,`order`,`p_id`,`link` FROM `laozhang_nav_cate` WHERE  `status` = 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_article` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `title`,`id`,`update_time`,`photo` FROM `laozhang_article` ORDER BY views desc LIMIT 3 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `laozhang_config` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `laozhang_config` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `laozhang_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`description`,`views`,`update_time`,`photo`,`author` FROM `laozhang_article` WHERE  `status` = 1  AND `is_tui` = 1 LIMIT 1 [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2017-08-31T19:35:52+08:00 ] 172.17.113.113 66.249.71.10 GET /robots.txt
+[ info ] jh12.cn/robots.txt [运行时间：0.003996s][吞吐率：250.26req/s] [内存消耗：387.69kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'robots.txt',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'Keep-alive',
+  'accept' => 'text/plain,text/html,*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-31T19:35:52+08:00 ] 172.17.113.113 66.249.79.66 GET /index.php/Home/Search/two/like/OneinStack
+[ info ] jh12.cn/index.php/Home/Search/two/like/OneinStack [运行时间：0.003779s][吞吐率：264.62req/s] [内存消耗：388.91kb] [文件加载：40]
+[ info ] [ LANG ] /data/wwwroot/default/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Home',
+    1 => 'Search',
+    2 => 'two',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jh12.cn',
+  'connection' => 'Keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+  'like' => 'OneinStack',
+)
+[ info ] [ LOG ] INIT File

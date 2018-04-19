@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {include file="public/head" /}
+    {include file="public/css" /}
+    <link href="/static/admin/css/plugins/iCheck/custom.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <!-- Panel Other -->
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>分配权限</h5>
+        </div>
+        <div class="ibox-content">
+            <!--搜索框开始-->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-2" style="width: 100px">
+                        <div class="input-group">
+                            <button class="btn btn-outline btn-primary" type="button">为{$name['title']}分配权限</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hr-line-dashed"></div>
+            <form action="{:url('auth/give_auth')}" method="post">
+                <input type="hidden" name="id" value="{$name['id']}">
+                <table class=" table table-bordered table-hover">
+                    {foreach name="list" item="list"}
+                    <tr class="b-group">
+                        <td  style="text-align: center;width:10%">
+                            <div class="click_box">
+                                <label >{$list['title']}&nbsp;
+                                    <input  type="checkbox" class="click_son" name="rule_ids[]" value="{$list['id']}"  onclick="checkAll(this)" {if ($list.is_yes == 1)} checked="checked"{/if}>
+                                </label>
+                            </div>
+                        </td>
+                        <td class="b-child">
+                            {if !empty($list['child'])}
+                                {foreach name="$list['child']" item="child"}
+                            <table class="table table-bordered table-hover">
+                                <tr class="b-group">
+                                    <td  style="text-align: center;width:10%">
+                                        <div class="d_chceked">
+                                            <label >{$child['title']}&nbsp; <input type="checkbox" class="click_son_sn click_hy" name="rule_ids[]" value="{$child['id']}"  onclick="checkAll(this)" {if ($child.is_yes == 1)} checked="checked"{/if} >
+                                            </label>
+                                        </div>
+
+                                    </td>
+                                            <td>
+                                                {if !empty($child['child'])}
+                                                    {foreach name="$child['child']" item="son"}
+                                                <label >&nbsp;&nbsp;&nbsp;{$son['title']}&nbsp;&nbsp;<input type="checkbox" name="rule_ids[]" class="click_son_sn click_hys" value="{$son['id']}" {if ($son.is_yes == 1)} checked="checked"{/if} ></label>
+
+
+                                                    {/foreach}
+                                                {/if}
+                                            </td>
+
+                                </tr>
+                            </table>
+                                {/foreach}
+                            {/if}
+                        </td>
+                    </tr>
+                    {/foreach}
+
+                </table>
+
+                <!--<tr>-->
+                <!--<th></th>-->
+                <!--<td><input class="btn btn-success" type="submit" value="提交"></td>-->
+                <!--</tr>-->
+                <div class="form-group">
+                    <div class="col-sm-6 col-sm-offset-1">
+                        <input class="btn btn-success" value="&nbsp;&nbsp;&nbsp;保存&nbsp;&nbsp;&nbsp;"  type="submit" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:history.back(-1)" class="btn btn-danger" type="submit"><i class="fa fa-close"></i> 返回</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
+
+{include file="public/js" /}
+
+<script>
+    $(function () {
+        $(".i-checks").iCheck({checkboxClass: "icheckbox_square-green", radioClass: "iradio_square-green",});
+        $(".click_son").click(function(){
+            $(this).closest("td").siblings(".b-child").find(".click_son_sn").prop("checked",$(this).prop("checked"));
+        });
+        $(".click_hy").click(function(){
+            $(this).closest("td").siblings("td").find(".click_hys").prop("checked",$(this).prop("checked"));
+        });
+    });
+</script>
+</body>
+</html>
